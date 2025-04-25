@@ -127,10 +127,13 @@ button{
         align-items: center;
     }
     img{
-        width: 100%;
+        width: 120.525px;
     }
     button{
         border: 0;
+    }
+    .evolution{
+        font-size: 50px;
     }
     }
 * {
