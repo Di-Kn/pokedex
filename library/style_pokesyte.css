@@ -1,0 +1,244 @@
+@media only screen and (min-width: 992px) {
+    body{
+        margin: 0%;
+        background-color: #a6b9ba;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    h1{
+        background-color: rgb(218, 2, 2);
+    }
+    a{
+        color: #000000;
+      }
+    footer {
+        border-radius: 0px 0px 35px 35px;
+        height: 55px;
+        width: 99%;
+        text-align: center;
+        padding: 20px;
+        background-color: #fff;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+    header {
+        border-radius: 35px 35px 0px 0px;
+        height: 55px;
+        text-align: center;
+        padding: 20px;
+        background-color: rgb(218, 2, 2);
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        width: 99%;
+    }
+    .image{
+        height: 250px;
+        width: 250px;
+    }
+    .down_display_text{
+        width: 50%;
+        text-align: center;
+        margin-left: 300px;
+    }
+    p{
+        display: flex;
+        width: 100px;
+        height: 50px; 
+        border-radius: 40px;
+        align-items: center;
+        justify-content: center;
+    }
+    .type{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+    .grass{
+        background-color: green;
+    }
+    .poison{
+        background-color: purple;
+    }
+    .flying{
+        background-color: skyblue;
+    }
+    .ground{
+        background-color: sandybrown;
+    }
+    .rock{
+        background-color: rgb(76, 0, 0);
+    }
+    .fight{
+        background-color: firebrick;
+    }
+    .normal{
+        background-color: grey;
+    }
+    .bug{
+        background-color: greenyellow;
+    }
+    .ghost{
+        background-color: rebeccapurple;
+    }
+    .steel{
+        background-color: aliceblue;
+    }
+    .fire{
+        background-color: orange;
+    }
+    .water{
+        background-color: blue;
+    }
+    .electr{
+        background-color: yellow;
+    }
+    .psychc{
+        background-color: rgb(255, 0, 162);
+    }
+    .ice{
+        background-color: rgb(38, 227, 224);
+    }
+    .dragon{
+        background-color: rgb(89, 0, 255);
+    }
+    .stroke{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .item_stroke{
+        margin: 5% 20%;
+        display: flex;
+        align-items: center;
+    }
+    img{
+        width: 90px;
+    }
+    button{
+        border: 0;
+    }
+    .evolution{
+        font-size: 20px;
+    }
+}
+@media only screen and (max-width: 480px) {
+    body{
+        margin: 0%;
+        background-color: #a6b9ba;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    h1{
+        background-color: rgb(218, 2, 2);
+    }
+    a{
+        color: #000000;
+      }
+    footer {
+        border-radius: 0px 0px 35px 35px;
+        height: 55px;
+        width: 99%;
+        text-align: center;
+        padding: 20px;
+        background-color: #fff;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+    header {
+        border-radius: 35px 35px 0px 0px;
+        height: 55px;
+        text-align: center;
+        padding: 20px;
+        background-color: rgb(218, 2, 2);
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        width: 99%;
+    }
+    .down_display_text{
+        width: 70%;
+        text-align: center;
+        margin-left: 80px;
+    }
+    .image{
+        height: 250px;
+        width: 250px;
+    }
+    p{
+        display: flex;
+        width: 100px;
+        height: 50px; 
+        border-radius: 40px;
+        align-items: center;
+        justify-content: center;
+    }
+    .type{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+    .grass{
+        background-color: green;
+    }
+    .poison{
+        background-color: purple;
+    }
+    .flying{
+        background-color: skyblue;
+    }
+    .ground{
+        background-color: sandybrown;
+    }
+    .rock{
+        background-color: rgb(76, 0, 0);
+    }
+    .fight{
+        background-color: firebrick;
+    }
+    .normal{
+        background-color: grey;
+    }
+    .bug{
+        background-color: greenyellow;
+    }
+    .ghost{
+        background-color: rebeccapurple;
+    }
+    .steel{
+        background-color: aliceblue;
+    }
+    .fire{
+        background-color: orange;
+    }
+    .water{
+        background-color: blue;
+    }
+    .electr{
+        background-color: yellow;
+    }
+    .psychc{
+        background-color: rgb(255, 0, 162);
+    }
+    .ice{
+        background-color: rgb(38, 227, 224);
+    }
+    .dragon{
+        background-color: rgb(89, 0, 255);
+    }
+    .stroke{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .item_stroke{
+        margin: 5%;
+        display: flex;
+        align-items: center;
+    }
+    img{
+        width: 90px;
+    }
+    button{
+        border: 0;
+    }
+    .evolution{
+        font-size: 20px;
+    }
+}

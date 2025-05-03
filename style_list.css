@@ -1,8 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Gidole&display=swap');
 @media only screen and (min-width: 992px) {
- 
     * {
         margin: 0%;
         background-color: #a6b9ba;
+    }
+    a,p,h1,h2{
+        font-family: "Gidole", sans-serif;
+        font-weight: 600;
+        font-style: normal;
     }
     h1{
         background-color: rgb(218, 2, 2);
@@ -38,144 +43,66 @@
         align-items: center;
     }
     img{
-        width: 100%;
-    }
-    button{
-        border: 0;
-    }
-    }
-* {
-    margin: 0%;
-    background-color: #a6b9ba;
-}
-h1{
-    background-color: rgb(218, 2, 2);
-}
-a{
-    color: #000000;
-  }
-footer {
-    border-radius: 0px 0px 35px 35px;
-    height: 55px;
-    text-align: center;
-    padding: 20px;
-    background-color: #fff;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-}
-header {
-    border-radius: 35px 35px 0px 0px;
-    height: 55px;
-    text-align: center;
-    padding: 20px;
-    background-color: rgb(218, 2, 2);
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-}
-.stroke{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.item_stroke{
-    margin: 1% 5% 1% 5%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-img{
-    width: 100%;
-}
-button{
-    border: 0;
-}
-@media only screen and (min-width: 480px) {
- 
-    * {
-        margin: 0%;
-        background-color: #a6b9ba;
-    }
-    h1{
-        background-color: rgb(218, 2, 2);
-    }
-    a{
-        color: #000000;
-      }
-    footer {
-        border-radius: 0px 0px 35px 35px;
-        height: 55px;
-        text-align: center;
-        padding: 20px;
-        background-color: #fff;
-        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    }
-    header {
-        border-radius: 35px 35px 0px 0px;
-        height: 55px;
-        text-align: center;
-        padding: 20px;
-        background-color: rgb(218, 2, 2);
-        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    }
-    .stroke{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    .item_stroke{
-        margin: 1% 5% 1% 5%;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-    img{
-        width: 120.525px;
+        width: 100px;
     }
     button{
         border: 0;
     }
     .evolution{
-        font-size: 50px;
+        font-size: 28px;
     }
     }
-* {
-    margin: 0%;
-    background-color: #a6b9ba;
-}
-h1{
-    background-color: rgb(218, 2, 2);
-}
-a{
-    color: #000000;
-  }
-footer {
-    border-radius: 0px 0px 35px 35px;
-    height: 55px;
-    text-align: center;
-    padding: 20px;
-    background-color: #fff;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-}
-header {
-    border-radius: 35px 35px 0px 0px;
-    height: 55px;
-    text-align: center;
-    padding: 20px;
-    background-color: rgb(218, 2, 2);
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-}
-.stroke{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.item_stroke{
-    margin: 1% 5% 1% 5%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-img{
-    width: 100%;
-}
-button{
-    border: 0;
+@media only screen and (max-width: 480px) {
+    @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+    body {
+        margin: 0%;
+        background-color: #a6b9ba;
+    }
+    a,p,h1,h2{
+        font-family: "Gidole", sans-serif;
+        font-weight: 600;
+        font-style: normal;
+    }
+    h1{
+        background-color: rgb(218, 2, 2);
+    }
+    a{
+        color: #000000;
+      }
+    footer {
+        border-radius: 0px 0px 35px 35px;
+        height: 55px;
+        text-align: center;
+        padding: 20px;
+        background-color: #fff;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+    header {
+        border-radius: 35px 35px 0px 0px;
+        height: 55px;
+        text-align: center;
+        padding: 20px;
+        background-color: rgb(218, 2, 2);
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+    .stroke{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .item_stroke{
+        margin: 2%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    img{
+        width: 90px;
+    }
+    button{
+        border: 0;
+    }
+    .evolution{
+        font-size: 20px;
+    }
 }
