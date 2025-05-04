@@ -52,7 +52,7 @@ a,p,h1,h2{
     }
     p{
         display: flex;
-        width: 100px;
+        width: 150px;
         height: 50px; 
         border-radius: 40px;
         align-items: center;
@@ -175,7 +175,7 @@ a,p,h1,h2{
     }
     p{
         display: flex;
-        width: 100px;
+        width: 150px;
         height: 50px; 
         border-radius: 40px;
         align-items: center;
