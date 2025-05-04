@@ -18,6 +18,10 @@ a,p,h1,h2{
     h1{
         background-color: rgb(218, 2, 2);
     }
+    h2{
+        display: flex;
+        justify-content: center;
+    }
     a{
         color: #000000;
       }
@@ -35,7 +39,7 @@ a,p,h1,h2{
         width: 98%;
         z-index: 1000;
         border-radius: 35px 35px 0px 0px;
-        height: 55px;
+        height: 65px;
         text-align: center;
         padding: 20px;
         background-color: rgb(218, 2, 2);
@@ -48,7 +52,7 @@ a,p,h1,h2{
     .down_display_text{
         width: 50%;
         text-align: center;
-        margin-left: 300px;
+        margin-left: 340px;
     }
     p{
         display: flex;
